@@ -4,4 +4,4 @@ This is a walkthough for writing a JPEG decoder. Assuming you know the basics fo
 
 ## Requirements
 
-- A JPEG compression specification. [here](https://www.w3.org/Graphics/JPEG/itu-t81.pdf) or a [mirror](/doc/itu-t81.pdf)
+- A JPEG compression specification. [here](https://www.w3.org/Graphics/JPEG/itu-t81.pdf) or a [mirror](/third-party/itu-t81.pdf)
