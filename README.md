@@ -1,6 +1,8 @@
 # JPEG
 
-This is a walkthough for writing a JPEG decoder. Assuming you know the basics for encoding and decoding. This will focus on the bit packing for the jpeg file, by reading the spec.
+This is a helper document for those who want to write a JPEG decoder just by reading the JPEG spec. When I wrote my decoder, I had the knowledge of how a JPEG file was encoded: YCbCr, DCT, Quantization, Huffman coding, and other features like interlacing. But did not know how they were packed into bits.
+
+This document consists of notes of how these bits are packed, and where to find the reference in the spec. If you are writing some decoder from scratch, and stuck somewhere, this doc will help you.
 
 ## Requirements
 
