@@ -7,4 +7,4 @@ This part is easy, you should have done this by yourself.
 JPEG and made of segments[\*]
 
 
-[\*]:hello
+[\*] "hello"
