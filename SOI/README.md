@@ -8,5 +8,18 @@ Refer to Table B.1 in the spec for segment names, you should be able to read the
 
 ```C
 uint16_t marker;
-
+while(1)
+{
+    read(marker);
+    print(marker);
+    if(marker == SOI || marker == EOI)
+        continue;
+    else if(marker >> 8 == 0xFF)
+    {
+        uint16_t Lf;
+        read(Lf);
+        skip(Lf-2); // Le contained the length of itself.
+    }
+}
+return;
 ```
