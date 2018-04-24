@@ -1,4 +1,4 @@
-# Basics
+## Basics
 
 The JPEG file starts with 0xFFD8 and ends with 0XFFD9, these are called the Start Of Image marker, and the End Of Image marker, or just SOI and EOI. Between these two markers are a sequence of segments, followed by the entropy encoded data. 
 
@@ -23,3 +23,9 @@ while(1)
 }
 return;
 ```
+
+## References
+
+Section B.1: An Intro to the bitstream structure.
+Table B.1: The names of segment markers.
+Section B.2.1: A high level syntax for the bitstream.
