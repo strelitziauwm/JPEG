@@ -27,5 +27,7 @@ return;
 ## References
 
 Section B.1: An Intro to the bitstream structure.
+
 Table B.1: The names of segment markers.
+
 Section B.2.1: A high level syntax for the bitstream.
