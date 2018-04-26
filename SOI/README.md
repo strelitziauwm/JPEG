@@ -24,7 +24,7 @@ while(1)
 return;
 ```
 
-## References
+## References to Spec
 
 Section B.1: An Intro to the bitstream structure.
 
