@@ -7,6 +7,7 @@
 #include "APPN/appn.h"
 #include "Quantization Tables/dqt.h"
 #include "Baseline DCT/baseline_dct.h"
+#include "Huffman Tables/huffman.h"
 
 int main(int argv,char **argc)
 {
@@ -31,6 +32,11 @@ int main(int argv,char **argc)
         {
             printf("Baseline DCT\n");
             read_sof0(img);
+        }
+        else if(marker == 0xffc4)
+        {
+            printf("Huffman Table\n");
+            read_huffman(img);
         }
         else
         {

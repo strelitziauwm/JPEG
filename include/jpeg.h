@@ -18,15 +18,17 @@ class Scan
     public:
         std::vector<Component> component;
 }; 
-class Huffman_Table
+class HuffmanTable
 {
-
+    public:
+        std::pair<int,uint8_t> query(uint16_t a);
 };
 class JPEG
 {
     public:
         FILE *m_fp;
         DQT dqt[4];
+        HuffmanTable huffman[2][2];
         std::vector<Scan> scan;
         std::vector<Component> component;
     public:
